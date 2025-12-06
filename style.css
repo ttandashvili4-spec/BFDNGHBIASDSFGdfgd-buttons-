@@ -1,260 +1,88 @@
-body{
-    background-color: hsl(185, 41%, 84%);
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+body {
+  background-color: hsl(185, 56%, 33%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.container{
-    width: 800px;
-    height: 500px;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0px 0px 2px gray;
-    gap: 20px;
-    padding: 10px 50px;
-    display: flex;
-    align-items: flex-end;
-
-
+.container {
+  background-color: white;
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
-.head{
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
+.img1 {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.box1{
-    width: 330px;
-    height: 50px;
-    background-color: hsl(180, 100%, 95%);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 0 20px;
+.img2 {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  top: -50px;
+  left: 150px;
 }
 
-.head h3{
-    color: hsl(186, 14%, 43%);
-    font-size: 20px;
-    font-weight: 300;
+.pp1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: -30px;
 }
 
-.box1 img{
-    width: 17px;
-    height: 17px;
+.pp2 {
+  text-align: center;
+  color: hsl(227, 10%, 46%);
+  margin-top: -10px;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0 30px;
 }
 
-.box1 input{
-    width: 120px;
-    height: 20px;
-    border: none;
-    background-color: hsl(189, 41%, 97%);
-    padding: 10px 10px;
-    font-size: 25px;
-    font-weight: 80;
-    color: hsl(183, 100%, 15%);
-    outline: none;
+.span1 {
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.box1 input::placeholder{
-    color: hsl(184, 14%, 56%);
-    font-size: 16px;
-    font-weight: 100;
-}
-.box1 input:focus{
-    border-bottom: 2px solid hsl(172, 67%, 45%);
+.box1 {
+  border-bottom: 1px solid hsl(223, 6%, 76%);
+  height: 330px;
 }
 
-
-
-.btnn{
-    width: 120px;
-    height: 60px;
-    background-color: hsl(183, 100%, 15%);
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px;
+.box2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
 }
 
-.btn{
-    width: 120px;
-    height: 60px;
-    cursor: pointer;
-    border: none;
-    background-color: hsla(198, 31%, 59%, 0.226);
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    
+.do {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.box2{
-    display: inline;   
-
+.rd {
+  z-index: -1;
 }
 
-.box3{
-    display: flex;
-    gap: 4px;
+.imgg {
+  position: absolute;
+  left: 80%;
+  top: 2%;
 }
 
-
-
-.typo{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px 0;
-    
-}
-
-.typo h3{
-     color: hsl(186, 14%, 43%);
-    font-size: 20px;
-    font-weight: 300;
-
-    
-
-}
-
-.head1{
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-
-}
-
-.box4{
-    display: flex;
-    gap: 10px;
-}
-
-.h33{
-    color: hsl(186, 14%, 43%);
-    font-size: 20px;
-    font-weight: 300;
-
-}
-
-.box4{
-    width: 330px;
-    height: 50px;
-    background-color: hsl(180, 100%, 95%);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 0 20px;
-    border: none;
-    margin-bottom: 40px;
-}
-
-
-.box4 input{
-    width: 120px;
-    height: 20px;
-    border: none;
-    background-color: hsl(189, 41%, 97%);
-    padding: 10px 10px;
-    font-size: 25px;
-    font-weight: 80;
-    color: hsl(183, 100%, 15%);
-    outline: none;
-}
-
-
-.down button{
-    width: 100px;
-    height: 40px;
-    background-color: hsl(172, 67%, 45%);
-    border: none;
-    border-radius: 5px;
-    color: hsl(183, 100%, 15%);
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.right{
-    background-color: hsl(183, 100%, 15%);
-    width: 400px;
-    height: 450px;
-    position: absolute;
-    right: 26%;
-    top: 22%;
-    border-radius: 20px;
-
-}
-
-.right h3{
-    color: white;
-    font-weight: lighter;
-    font-size: 22px;
-    margin-left: 30px;
-    margin-top: 40px;
-}
-
-
-.right h1{
-    color:   hsl(172, 67%, 45%);
-    font-size: 50px;
-}
-
-.rom{
-    display: flex;
-    gap: 110px;
-}
-
-.ri2{
-    display: flex;
-    gap: 130px;
-}
-
-.btn3{
-    cursor: pointer;
-    border: none;
-    background-color: hsl(183, 74%, 26%);
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 90px;
-    margin-left: 45px;
-    font-weight: 800;
-    color:hsl(172, 79%, 9%);
-    font-size: 20px;
-}
-
-
-.btnn:hover{
-  background-color: black;
-  color: hsl(183, 85%, 35%);
-  cursor: pointer;
-  border: 3px hsl(172, 67%, 45%) solid;
-  border-radius: 5px;
-}
-
-.btn:hover{
-  background-color: black;
-  color: hsl(183, 85%, 35%);
-  cursor: pointer;
-  border: 3px hsl(172, 67%, 45%) solid;
-  border-radius: 5px;
-}
-
-.btn3:hover{
-    background-color:  black;
-    border: 4px solid hsl(183, 85%, 35%);
-    color: hsl(183, 85%, 35%);
+.imgg1 {
+  position: absolute;
+  bottom: 30%;
+  right: 60%;
 }
