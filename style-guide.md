@@ -13,23 +13,26 @@ The designs were created to the following widths:
 
 ### Primary
 
-Blue 600: hsl(185, 75%, 39%)
-Navy 950: hsl(229, 23%, 23%)
-Gray 500: hsl(227, 10%, 46%)
+- Green 400: hsl(172, 67%, 45%)
 
 ### Neutral
 
-Gray 100: hsl(225, 10%, 92%)
+- Green 900: hsl(183, 100%, 15%)
+- Grey 500: hsl(186, 14%, 43%)
+- Grey 400: hsl(184, 14%, 56%)
+- Grey 200: hsl(185, 41%, 84%)
+- Grey 50: hsl(189, 47%, 97%)
+- White: hsl(0, 100%, 100%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (name and stats): 18px
+- Font size (form inputs): 24px
 
 ### Font
 
-- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
-- Weights: 400, 700
+- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
